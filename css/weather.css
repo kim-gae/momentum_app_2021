@@ -1,0 +1,9 @@
+#weather {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 33%;
+    left: 30px;
+    font-size: 25px;
+}

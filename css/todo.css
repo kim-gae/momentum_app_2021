@@ -1,0 +1,59 @@
+#todo-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 35%;
+    top: 15%;
+    font-size: 25px;
+}
+
+#todo-form ::placeholder {
+    font-size: 15px;
+}
+
+#todo-form input {
+    height: 40px;
+    width: 350px;
+    margin-top: 13px;
+    border: 0;
+    background-color: black;
+    opacity: 0.5;
+    color: white;
+}
+
+#todo-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    left: 35%;
+    top: 22%;
+    font-size: 25px;
+    list-style-type: none;
+}
+
+li:before {
+    content: ">";
+    font-family: FontAwesome;
+    margin-left: -1em;
+    margin-right: 0.5em;
+}
+
+li {
+    display: flex;
+    align-items: center;
+}
+#todo-list button {
+    margin-left: 10px;
+    opacity: 0.5;
+    border: 0;
+    background-color: black;
+    color: white;
+}
+
+#todo-list button:hover {
+    margin-left: 10px;
+    opacity: 1;
+    border: 0;
+}
